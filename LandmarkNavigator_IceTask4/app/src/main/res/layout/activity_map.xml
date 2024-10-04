@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- MapView to display the map -->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Button to calculate the best route -->
+    <Button
+        android:id="@+id/btnCalculateRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Route"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/green"
+        android:textColor="@android:color/white"
+        android:padding="10dp"/>
+
+    <!-- TextView to display estimated time and distance -->
+    <TextView
+        android:id="@+id/textViewEstimatedInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estimated time: -- | Distance: --"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        android:layout_above="@id/btnCalculateRoute"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>

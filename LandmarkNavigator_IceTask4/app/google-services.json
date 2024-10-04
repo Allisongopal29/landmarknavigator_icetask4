@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298080959217",
+    "project_id": "landmarknavigator-icetask4",
+    "storage_bucket": "landmarknavigator-icetask4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298080959217:android:b2432b63be0494d8b58750",
+        "android_client_info": {
+          "package_name": "com.opsc7312.landmarknavigator_icetask4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvpXCUSsE40iw_zKXadK6_mpAevtKj2gE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
